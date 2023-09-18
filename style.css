@@ -55,3 +55,68 @@ header div{
     top:0;
     right: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+/* animation */
+
+article > div{
+    background-color: rgb(126, 23, 41); height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border: 2px solid black;
+
+    
+}
+
+.sizing{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    
+}
+
+.box1{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    
+}
+.box2{
+    position:relative;
+    top: 0;
+    right: 0;
+
+    
+}
+.box3{
+    position: relative;
+    top: 0;
+  left: 0;
+
+    
+}
+.box4{
+    position: relative;
+    bottom: 0;
+    right: 0;
+
+    
+}
